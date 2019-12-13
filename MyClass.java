@@ -13,6 +13,11 @@ public class MyClass.java {
     /* ... */
   }
 
+  public Boolean isUsable() {
+  // ...
+  return null;  
+}
+
 public static void doSomethingWhichThrowsException() {
   try {
     throw new RuntimeException();
