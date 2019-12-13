@@ -8,6 +8,11 @@ public class MyClass.java {
   }
 }
 
+@Override
+  public void finalize() {
+    /* ... */
+  }
+
 public static void doSomethingWhichThrowsException() {
   try {
     throw new RuntimeException();
