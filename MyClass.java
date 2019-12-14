@@ -1,4 +1,4 @@
-public class MyClass.java {
+public class MyClass {
   public static void main(String[] args) {
   try {
     doSomethingWhichThrowsException();
@@ -6,6 +6,10 @@ public class MyClass.java {
   } catch (RuntimeException e) {
     System.out.println("ERROR");  // this message is not shown
   }
+}
+
+public void testMethod() {
+System.out.println("In test method");
 }
 
 @Override
