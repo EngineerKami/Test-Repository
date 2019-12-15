@@ -8,6 +8,14 @@ public class MyClass {
   }
 }
 
+public void switchCall(int param) {
+switch(param){
+case 0:
+doSomething();
+break;
+}
+}
+
 public void testMethod() {
 System.out.println("In test method");
 }
